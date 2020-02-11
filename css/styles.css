@@ -1,12 +1,20 @@
 /*===================================*/
 /*        Sub Folder Imports         */
 /*===================================*/
+@import 'utilities/index';
+@import 'base/index';
+@import 'components/index';
 /*===================================*/
 /*        Utilities Imports          */
 /*===================================*/
+@import 'utilities/index';
+@import 'base/index';
+@import 'components/index';
 /*===================================*/
 /*        Base Imports               */
 /*===================================*/
+@import 'normalize';
+@import 'typography';
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -394,13 +402,19 @@ a {
 /*===================================*/
 /*        Components Imports         */
 /*===================================*/
+@import 'button';
+@import 'form';
+@import 'grid';
+@import 'images';
+@import 'media-queries';
+@import 'navigation';
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: #48525c;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -440,7 +454,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1;
+  border-bottom: 5px solid #e0e0e0;
 }
 
 .hidden {
@@ -544,7 +558,7 @@ a {
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
-  border: 1px solid #ccc;
+  border: 1px solid #add8e6;
 }
 
 .img-logo {
@@ -677,7 +691,7 @@ a {
 
 .nav-link:hover {
   color: #fff;
-  background-color: #58e1c1;
+  background-color: #ffa949;
 }
 
 /*# sourceMappingURL=styles.css.map */
