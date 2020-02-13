@@ -23,3 +23,12 @@ $color-link-visited : $regent-st-blue;
 
 $color-shadow       : rgba($black,.8);
 $color-body         : $white;
+
+
+// Media Query Breakpoints
+
+$brk-narrow: '(min-width: 768px)' ;
+
+// Font Stacks
+
+$stack-sans-serif: 'Lato', sans-serif;

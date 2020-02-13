@@ -16,10 +16,6 @@
       margin-right: auto;
     }
     
-    .row {
-      flex-direction: row;
-    }
-    
     [class^=col] {
       display: flex;
       justify-content: center;
